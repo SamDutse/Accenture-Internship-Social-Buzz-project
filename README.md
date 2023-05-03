@@ -1,4 +1,5 @@
 # Accenture-Internship-Poject-Social-Buzz
+![](SocialBuzzGraphics.png)
 
 ## INTRODUCTION
 During my virtual Internship, I had the opportunity of working on a project for a company called **Social Buzz** which is a fast growing Technology unicorn that needs to adapt quickly to its global scale. The social media and content creator company houses a huge data of 100,000 per day and an approximate 36,500,000 per year which grow in time, with much people joining social Buzz in time.
