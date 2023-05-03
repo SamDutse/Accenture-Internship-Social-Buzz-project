@@ -56,23 +56,33 @@ To find out the top 5 categories. I created a data model, using these steps:
 ## ADDITIONAL KNOWLEDGE TO ANALYST
 Alternatively we can use SQL to join the table 
 SQL: joining the tables using
-SELECT
-React.F1,
-React.[Content ID],
-React.Type,
-React.Datetime,
-Cont.Type,
-Cont.Category,
-React_T.Sentiment,
-React_T.Score
-FROM
-	samdutse.dbo.Reaction$ AS React
-INNER JOIN
-	samdutse.dbo.Content$ AS Cont
-ON React.[Content ID] = Cont.[Content ID]
-INNER JOIN
-	Samdutse.dbo.Reaction_Types$ AS React_T
-ON React.Type = React_T.Type
+>SELECT
+>>React.F1,
+>>React.[Content ID],
+>>React.Type,
+>>React.Datetime,
+>>Cont.Type,
+>>Cont.Category,
+>>React_T.Sentiment,
+>>React_T.Score
+
+>FROM
+
+>>samdutse.dbo.Reaction$ AS React
+
+
+>INNER JOIN
+
+>>samdutse.dbo.Content$ AS Cont
+
+>>>ON React.[Content ID] = Cont.[Content ID]
+
+
+>INNER JOIN
+
+>>Samdutse.dbo.Reaction_Types$ AS React_T
+
+>>>ON React.Type = React_T.Type
 
 ### DEFINITION
 POC: A Proof of concept is a demonstration of a product, service or solution in a sales context. A POC should generally demonstrate that the product or concept will fulfill a customer requirement while also providing a compelling case of adoption
