@@ -1,4 +1,4 @@
-# Accenture-Internship-Poject-Social-Buzz
+# Accenture-Internship-Social-Buzz-Project
 ![](SocialBuzzGraphics.png)
 
 ## INTRODUCTION
